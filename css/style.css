@@ -1,11 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #fefae0;
 }
 .nav{
-    margin: 0;
-    padding: 0;
+    padding: 10px;
     border: none;
-    background-color:#606C38;
+    background-color:#553922;
     width:250px;
     height: 700px;
     float: left;
@@ -22,7 +26,7 @@ li{
     margin-top: 10px;
     color: #fefae0;
     font-size:larger;
-    padding: 3px;
+    padding: 7px;
 }
 li:hover{
     border: none;
@@ -188,12 +192,16 @@ button{
     width: 100px;
     height: 40px;
     color: #fefae0;
-    background-color: #606C38;
+    background-color: #553922;
     font-size: 15px;
     font-weight: bold;
 
 }
-button:hover{
+button a{
+    text-decoration: none;
+    color: #fefae0;
+}
+button:hover , button:hover a{
     width: 105px;
     height: 43px;
     color: #553922;
